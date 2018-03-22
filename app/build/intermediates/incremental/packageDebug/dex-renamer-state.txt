@@ -1,0 +1,7 @@
+#Thu Mar 08 19:00:20 IST 2018
+base.0=C\:\\Users\\or yossipof\\Desktop\\Employeesapp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_f191829601c8e8c00cd684856a0f934d24efc551
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\or yossipof\\Desktop\\Employeesapp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_8dace38ea73d410e1b6d6e612b0ba505758d3285\\classes.dex
+base.1=C\:\\Users\\or yossipof\\Desktop\\Employeesapp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_8dace38ea73d410e1b6d6e612b0ba505758d3285
+file.0=C\:\\Users\\or yossipof\\Desktop\\Employeesapp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_f191829601c8e8c00cd684856a0f934d24efc551\\classes.dex
