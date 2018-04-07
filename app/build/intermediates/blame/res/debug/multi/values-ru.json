@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\or yossipof\\Desktop\\Employeesapp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ru\\values-ru.xml",
+        "outputFile": "C:\\Users\\or yossipof\\Desktop\\ServeMeAppEmployees3.1-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ru\\values-ru.xml",
         "map": [
             {
                 "to": {
@@ -368,8 +368,46 @@
                     "startLine": 21,
                     "startColumn": 4,
                     "startOffset": 2034,
+                    "endColumn": 49,
+                    "endOffset": 2079
+                },
+                "from": {
+                    "file": "C:\\Users\\or yossipof\\Desktop\\ServeMeAppEmployees3.1-master\\app\\src\\main\\res\\values-ru\\strings.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 49,
+                        "endOffset": 100
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 2084,
+                    "endColumn": 32,
+                    "endOffset": 2112
+                },
+                "from": {
+                    "file": "C:\\Users\\or yossipof\\Desktop\\ServeMeAppEmployees3.1-master\\app\\src\\main\\res\\values-ru\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 105,
+                        "endColumn": 40,
+                        "endOffset": 141
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 2117,
                     "endColumn": 80,
-                    "endOffset": 2110
+                    "endOffset": 2193
                 },
                 "from": {
                     "file": "C:\\Users\\or yossipof\\.android\\build-cache\\69d9160de1eb1b4ab46e0687246fc19ab81086bc\\output\\res\\values-ru\\values-ru.xml",
@@ -384,11 +422,11 @@
             },
             {
                 "to": {
-                    "startLine": 22,
+                    "startLine": 24,
                     "startColumn": 4,
-                    "startOffset": 2115,
+                    "startOffset": 2198,
                     "endColumn": 100,
-                    "endOffset": 2211
+                    "endOffset": 2294
                 },
                 "from": {
                     "file": "C:\\Users\\or yossipof\\.android\\build-cache\\69d9160de1eb1b4ab46e0687246fc19ab81086bc\\output\\res\\values-ru\\values-ru.xml",

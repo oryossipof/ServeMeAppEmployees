@@ -90,7 +90,7 @@ public class AASync extends AsyncTask<String, Void,  ArrayList<Request>> {
             } catch (MalformedURLException e) {
                 e.printStackTrace();
             } catch (IOException e) {
-                e.printStackTrace();
+
             }
             try {
                 JSONArray ja = new JSONArray(result);

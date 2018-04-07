@@ -1,5 +1,6 @@
 package com.example.employeesapp;
 
+import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -7,9 +8,10 @@ import android.content.Intent;
 import android.content.IntentFilter;
 import android.os.Bundle;
 import android.os.Handler;
-import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
+import android.view.Window;
+import android.view.WindowManager;
 import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.Toast;
@@ -17,7 +19,7 @@ import android.widget.Toast;
 import java.io.Serializable;
 import java.util.ArrayList;
 
-public class RequestActivity extends AppCompatActivity implements Serializable {
+public class RequestActivity extends Activity implements Serializable {
     ArrayList<String> idArr = new ArrayList<>();
     String login_url = "http://servemeapp.000webhostapp.com//androidDataBaseQueries.php";
     private AASync AASync;
@@ -35,6 +37,9 @@ public class RequestActivity extends AppCompatActivity implements Serializable {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
+
         setContentView(R.layout.activity_request);
          workerNum = getIntent().getStringExtra("workerNum");
         // Construct the data source
@@ -82,9 +87,9 @@ public class RequestActivity extends AppCompatActivity implements Serializable {
                 AASync.execute(type,workerNum);
                 adapter.notifyDataSetChanged();
 
-                handler.postDelayed( this, 3 * 1000 );
+                handler.postDelayed( this, 1 * 1000 );
             }
-        }, 3 * 1000 );
+        }, 1 * 1000 );
 
 
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {

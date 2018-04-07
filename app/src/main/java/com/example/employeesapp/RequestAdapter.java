@@ -27,12 +27,12 @@ public View getView(int position, View convertView, ViewGroup parent) {
         // Lookup view for data population
         TextView roomnum = (TextView) convertView.findViewById(R.id.roomNumberTv);
         TextView req = (TextView) convertView.findViewById(R.id.requestTv);
-        TextView dep = (TextView) convertView.findViewById(R.id.depTv);
+        //TextView dep = (TextView) convertView.findViewById(R.id.depTv);
         TextView time = (TextView) convertView.findViewById(R.id.timeTv);
         // Populate the data into the template view using the data object
         roomnum.setText(request.roomNum);
         req.setText(request.service);
-        dep.setText(request.department);
+        //dep.setText(request.department);
         time.setText(request.time);
         // Return the completed view to render on screen
         return convertView;

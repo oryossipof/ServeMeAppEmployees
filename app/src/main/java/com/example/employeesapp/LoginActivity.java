@@ -1,6 +1,7 @@
 package com.example.employeesapp;
 
 
+import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.ProgressDialog;
 import android.content.BroadcastReceiver;
@@ -11,13 +12,15 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
+import android.view.Window;
+import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
-public class LoginActivity extends AppCompatActivity {
+public class LoginActivity extends Activity {
 
     private  BackgroundWorker backgroundWorker;
     private  BroadcastReceiver receiver;
@@ -34,6 +37,9 @@ public class LoginActivity extends AppCompatActivity {
         @Override
         public void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
+            requestWindowFeature(Window.FEATURE_NO_TITLE);
+            getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
+
             setContentView(R.layout.activity_login);
             ButterKnife.bind(this);
 

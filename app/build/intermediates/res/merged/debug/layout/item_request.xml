@@ -1,35 +1,86 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent" >
-    <TextView
-        android:id="@+id/roomNumberTv"
-        android:paddingLeft="10dp"
-        android:textSize="20sp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Name" />
-    <TextView
-        android:id="@+id/requestTv"
-        android:paddingLeft="10dp"
-        android:textSize="20sp"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
 
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="HomeTown" />
-    <TextView
-        android:id="@+id/depTv"
-        android:layout_width="wrap_content"
-        android:textSize="20sp"
+        android:orientation="vertical"
+       >
 
-        android:paddingLeft="10dp"
-        android:layout_height="wrap_content"
-        android:text="department" />
-    <TextView
-        android:id="@+id/timeTv"
-        android:paddingLeft="10dp"
-        android:textSize="20sp"
+        <TextView
+            android:id="@+id/roomNumberTvtitle"
+            android:textSize="20sp"
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:text="Room Number:"
+            android:textStyle="bold"
+            android:textColor="#741"
+            />
 
-        android:layout_width="wrap_content"
+        <TextView
+            android:id="@+id/requestTvtitle"
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:text="Service:"
+            android:textColor="#741"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+
+
+
+        <TextView
+            android:id="@+id/timeTvtitle"
+            android:textSize="20sp"
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:text="Time:"
+            android:textStyle="bold"
+            android:textColor="#741"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="time" />
+        android:orientation="vertical"
+        android:weightSum="1"
+       >
+
+        <TextView
+            android:id="@+id/roomNumberTv"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/roomNumberTvtitle"
+            android:text="Name"
+          />
+
+        <TextView
+            android:id="@+id/requestTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/requestTvtitle"
+            android:text="service"
+            android:textSize="20sp"></TextView>
+        <TextView
+            android:id="@+id/timeTv"
+            android:layout_marginRight="10dp"
+            android:textSize="20sp"
+            android:layout_alignEnd="@+id/timeTvtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="time"
+          />
+           />
+    </LinearLayout>
+
+
+
+
+
 </LinearLayout>

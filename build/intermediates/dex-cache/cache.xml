@@ -3,21 +3,21 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\or yossipof\Desktop\Employeesapp\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="C:\Users\or yossipof\Desktop\ServeMeAppEmployees3.1-master\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.1"
         sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="C:\Users\or yossipof\Desktop\Employeesapp\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_f191829601c8e8c00cd684856a0f934d24efc551\classes.dex" />
+        <dex dex="C:\Users\or yossipof\Desktop\ServeMeAppEmployees3.1-master\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_52f40ab1a9f19471c768a917461226b5b1de9184\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\or yossipof\Desktop\Employeesapp\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jar="C:\Users\or yossipof\Desktop\ServeMeAppEmployees3.1-master\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.1"
-        sha1="46a49ce4a9b4945df3e968c79c0a9e69e9092398">
-        <dex dex="C:\Users\or yossipof\Desktop\Employeesapp\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_8dace38ea73d410e1b6d6e612b0ba505758d3285\classes.dex" />
+        sha1="992976e31dac21953144eea96b06c307fc77b6d0">
+        <dex dex="C:\Users\or yossipof\Desktop\ServeMeAppEmployees3.1-master\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_9f25df8bcabf82effcb187c67eee961fc48dd864\classes.dex" />
     </item>
 
 </items>

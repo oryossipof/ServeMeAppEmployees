@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\or yossipof\\Desktop\\Employeesapp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-iw\\values-iw.xml",
+        "outputFile": "C:\\Users\\or yossipof\\Desktop\\ServeMeAppEmployees3.1-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-iw\\values-iw.xml",
         "map": [
             {
                 "to": {
@@ -368,8 +368,46 @@
                     "startLine": 21,
                     "startColumn": 4,
                     "startOffset": 1953,
+                    "endColumn": 49,
+                    "endOffset": 1998
+                },
+                "from": {
+                    "file": "C:\\Users\\or yossipof\\Desktop\\ServeMeAppEmployees3.1-master\\app\\src\\main\\res\\values-iw\\strings.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 49,
+                        "endOffset": 100
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 2003,
+                    "endColumn": 49,
+                    "endOffset": 2048
+                },
+                "from": {
+                    "file": "C:\\Users\\or yossipof\\Desktop\\ServeMeAppEmployees3.1-master\\app\\src\\main\\res\\values-iw\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 105,
+                        "endColumn": 49,
+                        "endOffset": 150
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 2053,
                     "endColumn": 78,
-                    "endOffset": 2027
+                    "endOffset": 2127
                 },
                 "from": {
                     "file": "C:\\Users\\or yossipof\\.android\\build-cache\\69d9160de1eb1b4ab46e0687246fc19ab81086bc\\output\\res\\values-iw\\values-iw.xml",
@@ -384,11 +422,30 @@
             },
             {
                 "to": {
-                    "startLine": 22,
+                    "startLine": 24,
                     "startColumn": 4,
-                    "startOffset": 2032,
+                    "startOffset": 2132,
+                    "endColumn": 43,
+                    "endOffset": 2171
+                },
+                "from": {
+                    "file": "C:\\Users\\or yossipof\\Desktop\\ServeMeAppEmployees3.1-master\\app\\src\\main\\res\\values-iw\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 155,
+                        "endColumn": 43,
+                        "endOffset": 194
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 2176,
                     "endColumn": 102,
-                    "endOffset": 2130
+                    "endOffset": 2274
                 },
                 "from": {
                     "file": "C:\\Users\\or yossipof\\.android\\build-cache\\69d9160de1eb1b4ab46e0687246fc19ab81086bc\\output\\res\\values-iw\\values-iw.xml",
@@ -398,6 +455,44 @@
                         "startOffset": 2032,
                         "endColumn": 102,
                         "endOffset": 2130
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 2279,
+                    "endColumn": 37,
+                    "endOffset": 2312
+                },
+                "from": {
+                    "file": "C:\\Users\\or yossipof\\Desktop\\ServeMeAppEmployees3.1-master\\app\\src\\main\\res\\values-iw\\strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 199,
+                        "endColumn": 37,
+                        "endOffset": 232
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 2317,
+                    "endColumn": 39,
+                    "endOffset": 2352
+                },
+                "from": {
+                    "file": "C:\\Users\\or yossipof\\Desktop\\ServeMeAppEmployees3.1-master\\app\\src\\main\\res\\values-iw\\strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 237,
+                        "endColumn": 39,
+                        "endOffset": 272
                     }
                 }
             }
